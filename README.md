@@ -1,2 +1,4 @@
-# 21DiasdeCodigo
-21 dias de Código, um desafio da Rocketseat para nunca parar de aprender! #neverstoplearning #buildyourfuture
+# 21 Dias de Código
+<p>
+  Um desafio da <a href="https://www.rocketseat.com.br/">Rocketseat</a> para nunca parar de aprender! #neverstoplearning #buildyourfuture
+</p>
