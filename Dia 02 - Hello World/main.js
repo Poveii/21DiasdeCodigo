@@ -1,25 +1,30 @@
 const helloWorldElement = document.querySelector("h1");
-const containerElement = document.querySelector(".container");
+const spanHelloWorldElement = document.querySelector("h1 span");
+const contentElement = document.querySelector(".content");
 const mainElement = document.querySelector("main");
+const blurElement = document.querySelector(".blur");
+const footerElement = document.querySelector("footer small");
 
 helloWorldElement.addEventListener("click", function () {
   helloWorldElement.classList.add("vanish");
-  containerElement.classList.add("vanish");
+  contentElement.classList.add("vanish");
 
   setTimeout(() => {
     helloWorldElement.classList.remove("vanish");
 
     setTimeout(() => {
-      helloWorldElement.classList.add("colors");
       mainElement.classList.add("unsplash");
+      blurElement.classList.add("show");
+      helloWorldElement.classList.add("colors");
 
       setTimeout(() => {
-        helloWorldElement.innerText = "Hello";
+        spanHelloWorldElement.textContent = "";
+        spanHelloWorldElement.classList.add("type");
 
         setTimeout(() => {
-          helloWorldElement.innerText = "Hello Dev!";
-        }, 800);
+          footerElement.classList.add("show");
+        }, 3000);
       }, 4000);
-    }, 1000);
+    }, 800);
   }, 3000);
 });
