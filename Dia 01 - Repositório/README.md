@@ -1,7 +1,9 @@
-# Dia 01 Completado
+# Dia 01 - Repositório
 
-![Uma imagem mostrando o repositório criado no dia 01](./reposit%C3%B3rio.png)
+O desafio era criar um repositório para todos os projetos do desafio de 21 dias de código.
 
-🔥 Desafio concluído com sucesso!!
+<img src="./repositório.png" alt="Uma imagem mostrando o repositório criado no dia 01"/>
+
+### 🔥 Desafio concluído com sucesso!!
 
 **Como foi?** Foi de boas! 👌
