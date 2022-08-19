@@ -3,7 +3,7 @@ const interruptorLabelElement = document.querySelector("label");
 const bodyElement = document.querySelector("body");
 
 interruptorLabelElement.addEventListener("click", function () {
-  if (interruptorInputElement.checked) {
+  if (interruptorInputElement.defaultChecked) {
     bodyElement.classList.add("dark");
     interruptorInputElement.defaultChecked = false;
   } else {
