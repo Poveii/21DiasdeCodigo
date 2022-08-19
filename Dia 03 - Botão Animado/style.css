@@ -16,6 +16,11 @@ body {
   font-family: monospace;
 }
 
+body.dark {
+  background-color: #000000;
+  filter: brightness(0.2);
+}
+
 /* ====== MAIN ====== */
 main {
   display: flex;
@@ -47,7 +52,7 @@ input {
   cursor: initial;
 }
 
-#interruptor + .interruptor-box label {
+#interruptor + label {
   display: block;
 
   cursor: pointer;
@@ -55,8 +60,8 @@ input {
   flex: 1;
 }
 
-.interruptor-shadow + .interruptor-box label::before,
-.interruptor-shadow + .interruptor-box label::after {
+#interruptor + label::before,
+#interruptor + label::after {
   content: "";
   position: absolute;
   top: 1px;
@@ -66,7 +71,7 @@ input {
   margin: auto;
 }
 
-.interruptor-shadow + .interruptor-box label::before {
+#interruptor + label::before {
   width: 138px;
   height: 69px;
 
@@ -78,7 +83,7 @@ input {
   filter: opacity(0.7);
 }
 
-.interruptor-shadow + .interruptor-box label::after {
+#interruptor + label::after {
   width: 132px;
   height: 66px;
   margin: auto;
@@ -91,7 +96,7 @@ input {
   border-radius: 6px;
 }
 
-.interruptor-shadow:checked + .interruptor-box label::after {
+#interruptor:checked + label::after {
   border-left: none;
   border-right: 3.6px #c9c9c9 solid;
 }
