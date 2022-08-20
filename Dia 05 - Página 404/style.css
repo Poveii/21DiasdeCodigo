@@ -1,5 +1,118 @@
+/* ====== RESET ====== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --background-color: rgba(255, 165, 2, 0.6);
+  --text-color: #ffffff;
+  --button-color: #6961ce;
+  --button-hover-color: #4940c4;
+}
+
+.blur {
+  filter: blur(8px);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+
+  font-family: "Lato", sans-serif;
+}
+
+body.did-it {
+  --background-color: rgb(55, 66, 250, 0.5);
+  --text-color: #ffffff;
+  --button-color: #6961ce;
+  --button-hover-color: #4940c4;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  transition: filter 0.2s ease-out;
+}
+
+/* ====== MAIN ====== */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  flex: 1;
+  margin-top: 28px;
+}
+
+#sally-looking {
+  width: 303px;
+  height: max-content;
+}
+
+#sally-found {
+  width: 375px;
+  height: max-content;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 24px;
+  text-align: center;
+}
+
+.content h1 {
+  width: 20rem;
+
+  margin-bottom: 12px;
+}
+
+.content p {
+  width: 20rem;
+
+  margin-bottom: 24px;
+}
+
+.content button {
+  background-color: var(--button-color);
+  color: var(--text-color);
+  border-color: var(--button-color);
+
+  padding: 1.125rem 2.25rem;
+  border-radius: 0.5rem;
+
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.content button:hover {
+  background-color: var(--button-hover-color);
+  border-color: var(--button-hover-color);
+}
+
+/* ====== FOOTER ====== */
+footer {
+  display: flex;
+
+  margin-top: 52px;
+  margin-bottom: 20px;
+}
+
+footer small a {
+  color: var(--text-color);
+
+  font-weight: 700;
+  text-decoration: underline;
 }
