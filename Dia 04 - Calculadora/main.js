@@ -4,11 +4,14 @@ const operatorsElements = document.querySelectorAll(".basic-operators button");
 const equalElement = document.querySelector("#equal");
 const clearDisplayElement = document.querySelector("#clear");
 const backspaceDisplayElement = document.querySelector("#backspace");
+const turnOnOffDisplayElement = document.querySelector("#turn-on-off");
 
 operatorsElements.forEach((operatorElement) => {
   let operator = operatorElement.textContent;
 
   operatorElement.addEventListener("click", function () {
+    if (displayElement.classList.contains("off")) return;
+
     if (!displayElement.classList.contains("number")) return;
     if (displayElement.classList.contains("equal"))
       displayElement.innerHTML = eval(displayElement.textContent);
@@ -25,6 +28,8 @@ operatorsElements.forEach((operatorElement) => {
 
 numberButtonsElements.forEach((numberElement) => {
   numberElement.addEventListener("click", function () {
+    if (displayElement.classList.contains("off")) return;
+
     let number = numberElement.textContent;
 
     displayElement.innerHTML += number;
@@ -38,7 +43,9 @@ numberButtonsElements.forEach((numberElement) => {
 });
 
 equalElement.addEventListener("click", function () {
-  if (displayElement.classList.contains(!"equal")) return;
+  if (displayElement.classList.contains("off")) return;
+
+  if (!displayElement.classList.contains("equal")) return;
 
   try {
     eval(displayElement.textContent);
@@ -49,12 +56,23 @@ equalElement.addEventListener("click", function () {
   displayElement.innerHTML = eval(displayElement.textContent);
 });
 
-clearDisplayElement.addEventListener(
-  "click",
-  () => (displayElement.innerHTML = "")
-);
+clearDisplayElement.addEventListener("click", () => {
+  if (displayElement.classList.contains("off")) return;
 
-backspaceDisplayElement.addEventListener(
-  "click",
-  () => (displayElement.textContent = displayElement.textContent.slice(0, -1))
-);
+  displayElement.innerHTML = "";
+  displayElement.className = "display";
+});
+
+backspaceDisplayElement.addEventListener("click", () => {
+  if (displayElement.classList.contains("off")) return;
+
+  if (displayElement.textContent === "") return;
+
+  displayElement.textContent = displayElement.textContent.slice(0, -1);
+  if (displayElement.textContent === "")
+    return (displayElement.className = "display");
+});
+
+turnOnOffDisplayElement.addEventListener("click", function () {
+  displayElement.classList.toggle("off");
+});
