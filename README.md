@@ -11,7 +11,7 @@ Desafios (15 de Agosto de 2022 - 04 de Setembro de 2022):
 - [x] **Dia 3: Crie um botão animado.**
 - [x] **Dia 4: Crie uma calculadora.**
 - [x] **Dia 5: Desenvolva uma página customizada que exiba o erro 404.**
-- [ ] Dia 6: Crie um card com o efeito glassmorphism.
+- [x] **Dia 6: Crie um card com o efeito glassmorphism.**
 - [ ] Dia 7: Desenvolva um Contador.
 - [ ] Dia 8: ...
 - [ ] Dia 9: ...
