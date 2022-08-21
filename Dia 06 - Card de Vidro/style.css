@@ -1,0 +1,100 @@
+/* ====== RESET ====== */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  color: #ffffff;
+
+  font-family: "Poppins", sans-serif;
+}
+
+/* ====== MAIN ====== */
+main {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: url(./images/steve-johnson-0vHT_QY9u7k-unsplash.jpg) no-repeat
+    center;
+  background-size: cover;
+}
+
+.card {
+  max-width: 95%;
+  height: max-content;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  background: linear-gradient(
+    120deg,
+    rgba(255, 236, 209, 0.25),
+    rgba(255, 236, 209, 0.75),
+    60%,
+    rgba(255, 236, 209, 0.25)
+  );
+  border-radius: 6px;
+  box-shadow: inset 4px 4px 5px 0 rgba(255, 236, 209, 0.15),
+    inset -4px -4px 5px 0 rgba(0, 0, 0, 0.1), 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(2px) saturate(140%);
+
+  transition: transform 0.4s ease-in, backdrop-filter 0.4s ease-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  backdrop-filter: blur(8px);
+}
+
+img {
+  width: 34%;
+  height: max-content;
+
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+
+  margin-left: 10px;
+}
+
+h1 {
+  font-size: 0.75rem;
+}
+
+p {
+  font-size: 0.625rem;
+  font-weight: 300;
+
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 14px 36px;
+
+  background-color: #9e3b1a;
+  color: #ffffff;
+  border-radius: 10px;
+
+  font: 400 0.5rem "Poppins", sans-serif;
+  transition: filter 0.3s ease-in;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(1.15);
+}
