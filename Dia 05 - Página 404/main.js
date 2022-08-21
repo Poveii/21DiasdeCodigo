@@ -20,7 +20,7 @@ goWithSallyButton.addEventListener("click", function () {
 
   headingElement.textContent = "Parabéns! Você ajudou o Sally!";
   paragraphElement.textContent =
-    "Agora falta você encontrar o seu caminho! Verifque se a url do site está correta, caso queira você pode voltar.";
+    "Agora falta você encontrar o seu caminho! Verifique se a url do site está correta, caso queira você pode voltar.";
 
   goWithSallyButton.textContent = "Voltar pro começo";
 
@@ -29,5 +29,3 @@ goWithSallyButton.addEventListener("click", function () {
     goWithSallyButton.id = "go-back";
   }, 400);
 });
-
-console.log();

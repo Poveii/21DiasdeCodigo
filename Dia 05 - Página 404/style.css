@@ -120,6 +120,7 @@ footer small a {
   text-decoration: underline;
 }
 
+/* ====== MEDIA QUERIES ====== */
 @media (min-width: 1024px) {
   main {
     flex-direction: row;
