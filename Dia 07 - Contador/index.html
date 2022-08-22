@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contador</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <div class="timer-container">
+          <h1>Cronômetro:</h1>
+          <p id="timer">
+            <span id="hours">00</span>:<span id="minutes">00</span>:<span
+              id="seconds"
+              >00
+            </span>
+          </p>
+
+          <div class="content">
+            <button id="start">Iniciar</button>
+            <button id="stop" disabled>Parar</button>
+            <button id="reset" disabled>Reset</button>
+          </div>
+
+          <div class="stop-list"></div>
+        </div>
+      </main>
+
+      <footer>
+        <small>
+          Criado pelo
+          <a
+            href="https://github.com/poveii"
+            target="_blank"
+            rel="noreferrer noopener"
+            >Poveii</a
+          >
+          para o desafio 07 dos #12diasdecodigo
+        </small>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+/* ====== RESET ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ====== MAIN ====== */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px 32px;
+
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+}
+
+.stop-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  margin-top: 16px;
+}
+
+/* ====== FOOTER ====== */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+small {
+  width: 200px;
+}
+
+small a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  button {
+    padding: 14px 44px;
+
+    font-size: 0.875rem;
+  }
+}
