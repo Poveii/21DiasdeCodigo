@@ -5,14 +5,26 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #ee964b;
-  background-color: #392f4f;
-  color: #000000;
+a {
+  text-decoration: none;
 }
 
-/* ====== MAIN ====== */
-main {
+:root {
+  --background-color: #ffa94e;
+  --text-color: #000000;
+}
+
+body {
+  background-color: var(--background-color);
+  transition: background-color 0.2s ease-in-out;
+}
+
+body.dark {
+  --background-color: #392f4f;
+  --text-color: #ffffff;
+}
+
+.container {
   width: 100vw;
   height: 100vh;
 
@@ -20,6 +32,14 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+/* ====== MAIN ====== */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
 }
 
 input {
@@ -48,22 +68,24 @@ input {
 #toggle + label::before {
   width: 130px;
   height: 65px;
-  background-color: #f4d35e;
+
+  background-color: #ee964b;
   border-radius: 36px;
-  transition: background-color 0.2s ease-out;
+  transition: background-color 0.15s ease-out;
 }
 
 #toggle + label::after {
   width: 63px;
   height: 63px;
 
-  background-image: url(./images/moon.svg);
+  background-image: url(./images/sun.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
+  background-size: 60px;
 
   border-radius: 100%;
-  transform: translateX(-33px);
-  transition: transform 0.4s ease-out, background-image 0.2s;
+  transform: translateX(-29px);
+  transition: transform 0.3s ease-in;
 }
 
 #toggle:checked + label:before {
@@ -71,7 +93,30 @@ input {
 }
 
 #toggle:checked + label:after {
-  background-color: #0d3b66;
-  background-image: url(./images/sun.svg);
-  transform: translateX(28px);
+  background-image: url(./images/moon.svg);
+  transform: translateX(33px);
+}
+
+/* ====== FOOTER ====== */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 12px;
+}
+
+small {
+  font-family: sans-serif;
+  color: var(--text-color);
+
+  opacity: 0.8;
+  transition: color 0.2s ease-in-out;
+}
+
+small a {
+  color: var(--text-color);
+  text-decoration: underline;
+
+  transition: color 0.2s ease-in-out;
 }
