@@ -13,7 +13,7 @@ Desafios (15 de Agosto de 2022 - 04 de Setembro de 2022):
 - [x] **Dia 5: Desenvolva uma página customizada que exiba o erro 404.**
 - [x] **Dia 6: Crie um card com o efeito glassmorphism.**
 - [x] **Dia 7: Desenvolva um Contador.**
-- [ ] Dia 8: Desenvolva um toggle que altere o tema para claro e escuro.
+- [x] **Dia 8: Desenvolva um toggle que altere o tema para claro e escuro.**
 - [ ] Dia 9: Crie uma animação de loading.
 - [ ] Dia 10: Utilize a lib Particle.js do Javascript.
 - [ ] Dia 11: Crie o layout de um formulário de login.
