@@ -1,5 +1,62 @@
+/* ====== GLOBAL ====== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #000000;
+    --text-color: #ffffff;
+  }
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+
+  font-family: "Silkscreen", monospace;
+}
+
+/* ====== MAIN ====== */
+main {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+span::after {
+  position: relative;
+  content: "";
+
+  animation: loading 2s linear infinite;
+}
+
+/* ====== ANIMATIONS ====== */
+@keyframes loading {
+  0% {
+    content: "";
+  }
+  33.33% {
+    content: ".";
+  }
+  66.67% {
+    content: "..";
+  }
+  100% {
+    content: "...";
+  }
 }
