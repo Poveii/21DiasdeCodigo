@@ -14,7 +14,7 @@ Desafios (15 de Agosto de 2022 - 04 de Setembro de 2022):
 - [x] **Dia 6: Crie um card com o efeito glassmorphism.**
 - [x] **Dia 7: Desenvolva um Contador.**
 - [x] **Dia 8: Desenvolva um toggle que altere o tema para claro e escuro.**
-- [ ] Dia 9: Crie uma animação de loading.
+- [x] **Dia 9: Crie uma animação de loading.**
 - [ ] Dia 10: Utilize a lib Particle.js do Javascript.
 - [ ] Dia 11: Crie o layout de um formulário de login.
 - [ ] Dia 12: Desenvolva uma galeria de imagens.
