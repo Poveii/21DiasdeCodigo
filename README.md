@@ -16,7 +16,7 @@ Desafios (15 de Agosto de 2022 - 04 de Setembro de 2022):
 - [x] **Dia 8: Desenvolva um toggle que altere o tema para claro e escuro.**
 - [x] **Dia 9: Crie uma animação de loading.**
 - [x] **Dia 10: Utilize a lib Particle.js do Javascript.**
-- [ ] Dia 11: Crie o layout de um formulário de login.
+- [x] **Dia 11: Crie o layout de um formulário de login.**
 - [ ] Dia 12: Desenvolva uma galeria de imagens.
 - [ ] Dia 13: Desenvolva um menu responsivo.
 - [ ] Dia 14: Crie um formulário de quizzes.
