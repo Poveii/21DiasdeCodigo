@@ -1,0 +1,91 @@
+/* ====== RESET ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* ====== HEADER ====== */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+header h1 {
+  margin-left: 16px;
+}
+
+header nav {
+  display: flex;
+  margin-right: 12px;
+}
+
+nav ul {
+  display: none;
+  gap: 1.5rem;
+}
+
+ul li {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+ul li a {
+  color: #000000;
+}
+
+ul.show {
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  place-content: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background-color: #ffffff;
+}
+
+.material-symbols-rounded {
+  font-size: 2rem;
+  z-index: 1;
+}
+
+/* ====== MAIN ====== */
+main {
+  flex: 1;
+}
+
+/* ====== FOOTER ====== */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
