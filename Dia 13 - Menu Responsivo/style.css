@@ -16,6 +16,7 @@ a {
 body {
   background-color: #ffffff;
   color: #000000;
+  font-family: "Roboto Slab", serif;
 }
 
 .container {
@@ -39,6 +40,7 @@ header h1 {
   margin-left: 16px;
 }
 
+/* ==== NAV ==== */
 header nav {
   display: flex;
   margin-right: 12px;
@@ -47,15 +49,6 @@ header nav {
 nav ul {
   display: none;
   gap: 1.5rem;
-}
-
-ul li {
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-ul li a {
-  color: #000000;
 }
 
 ul.show {
@@ -72,8 +65,40 @@ ul.show {
   background-color: #ffffff;
 }
 
+ul li {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+li a {
+  color: #000000;
+  position: relative;
+}
+
+li a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #000000;
+
+  position: absolute;
+  left: 0;
+  bottom: -0.5rem;
+
+  transition: width 0.2s;
+}
+
+li a.active {
+  font-weight: 700;
+}
+
+li a.active::after {
+  width: 100%;
+}
+
 .material-symbols-rounded {
   font-size: 2rem;
+  cursor: pointer;
   z-index: 1;
 }
 
@@ -88,4 +113,13 @@ footer {
   align-items: center;
   justify-content: center;
   margin-bottom: 12px;
+}
+
+small {
+  text-align: center;
+}
+
+small a {
+  text-decoration: underline;
+  color: #000000;
 }
