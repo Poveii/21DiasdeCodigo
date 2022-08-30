@@ -1,0 +1,82 @@
+/* ====== RESET ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ====== HEADER ====== */
+header {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+header h1 {
+  margin-left: 16px;
+}
+
+/* ====== MAIN ====== */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.card button {
+  padding: 14px 36px;
+
+  margin-top: 12px;
+}
+
+/* ====== FOOTER ====== */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+small {
+  text-align: center;
+}
+
+small a {
+  text-decoration: underline;
+  color: #000000;
+}
