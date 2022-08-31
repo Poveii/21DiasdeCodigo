@@ -49,6 +49,10 @@ main {
   flex: 1;
 }
 
+.card {
+  max-width: 260px;
+}
+
 .card h2 {
   margin-bottom: 10px;
 }
@@ -58,10 +62,16 @@ main {
   margin-bottom: 6px;
 }
 
+.card input,
+.card label {
+  cursor: pointer;
+}
+
 .card button {
   padding: 14px 36px;
 
   margin-top: 12px;
+  cursor: pointer;
 }
 
 /* ====== FOOTER ====== */
