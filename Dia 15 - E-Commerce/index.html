@@ -35,7 +35,10 @@
           <li><a href="">Calçados</a></li>
         </ul>
 
-        <span class="material-symbols-rounded"> menu </span>
+        <span class="material-symbols-rounded" id="menu-icon"> menu </span>
+        <span class="material-symbols-rounded" id="shopping-cart">
+          shopping_cart
+        </span>
       </nav>
     </header>
     <main>
@@ -62,11 +65,20 @@
           </div>
           <div class="product">
             <img
-              src="https://images.unsplash.com/photo-1595309849416-7651d5586828?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI5fHxwcm9kdWN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-              alt="Um tênis branco com detalhes em verde neon bastante desbotado"
+              src="https://images.unsplash.com/photo-1597916271495-1987225c1f44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=385&q=80"
+              alt="Um relógio preto de couro marrom com detalhes em vermelho"
             />
-            <h3>Tênis</h3>
-            <span>R$ 29,90</span>
+            <h3>Relógio</h3>
+            <span>R$ 24,90</span>
+            <button>Adicionar ao Carrinho</button>
+          </div>
+          <div class="product">
+            <img
+              src="https://images.unsplash.com/photo-1597916271495-1987225c1f44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=385&q=80"
+              alt="Um relógio preto de couro marrom com detalhes em vermelho"
+            />
+            <h3>Relógio</h3>
+            <span>R$ 24,90</span>
             <button>Adicionar ao Carrinho</button>
           </div>
         </div>
@@ -76,29 +88,38 @@
         <div class="products">
           <div class="product">
             <img
-              src="https://images.unsplash.com/photo-1595309849416-7651d5586828?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI5fHxwcm9kdWN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-              alt="Um tênis branco com detalhes em verde neon bastante desbotado"
+              src="https://images.unsplash.com/photo-1505740106531-4243f3831c78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt="Um fone de ouvido de cor preta"
             />
-            <h3>Tênis 2</h3>
+            <h3>Fone de Ouvido</h3>
             <span>R$ 27,90</span>
             <button>Adicionar ao Carrinho</button>
           </div>
           <div class="product">
             <img
-              src="https://images.unsplash.com/photo-1595309849416-7651d5586828?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI5fHxwcm9kdWN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-              alt="Um tênis branco com detalhes em verde neon bastante desbotado"
+              src="https://images.unsplash.com/photo-1505740106531-4243f3831c78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt="Um fone de ouvido de cor preta"
             />
-            <h3>Tênis 2</h3>
+            <h3>Fone de Ouvido</h3>
             <span>R$ 27,90</span>
             <button>Adicionar ao Carrinho</button>
           </div>
           <div class="product">
             <img
-              src="https://images.unsplash.com/photo-1595309849416-7651d5586828?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI5fHxwcm9kdWN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-              alt="Um tênis branco com detalhes em verde neon bastante desbotado"
+              src="https://images.unsplash.com/photo-1527814050087-3793815479db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=728&q=80"
+              alt="Um mouse branco sem fio com a logo da Logitech"
             />
-            <h3>Tênis 2</h3>
-            <span>R$ 27,90</span>
+            <h3>Mouse sem fio</h3>
+            <span>R$ 24,90</span>
+            <button>Adicionar ao Carrinho</button>
+          </div>
+          <div class="product">
+            <img
+              src="https://images.unsplash.com/photo-1527814050087-3793815479db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=728&q=80"
+              alt="Um mouse branco sem fio com a logo da Logitech"
+            />
+            <h3>Mouse sem fio</h3>
+            <span>R$ 24,90</span>
             <button>Adicionar ao Carrinho</button>
           </div>
         </div>
@@ -112,13 +133,35 @@
           class="logo"
         />
         <small>Rua não sei 1489, Lote 9 - Vila Nova, Araguari - MG</small>
+        <div class="social-links">
+          <a href="">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg"
+              alt="Ícone do Facebook colorido"
+              class="social-icons"
+          /></a>
+          <a href="">
+            <img
+              src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/instagram.svg"
+              alt="Ícone do Instagram colorido"
+              class="social-icons"
+            />
+          </a>
+          <a href="">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg"
+              alt="Ícone do Twitter colorido"
+              class="social-icons"
+          /></a>
+          <a href="">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+              alt="Ícone do LinkedIn colorido"
+              class="social-icons"
+          /></a>
+        </div>
       </div>
-      <div class="social-links">
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-      </div>
+
       <button id="back-to-top">
         <span class="material-symbols-rounded"> arrow_upward </span>
       </button>
