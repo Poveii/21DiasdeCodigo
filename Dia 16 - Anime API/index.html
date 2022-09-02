@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anime API</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -16,12 +23,23 @@
       <main>
         <div class="card">
           <img src="" alt="" id="animeImage" />
-          <span id="animeRecomendationText"></span>
-          <h2 id="animeName"></h2>
-          <p id="animeSynopsis"></p>
-          <a href="" target="_blank" rel="noopener noreferrer" id="animeURL">
-            Ir para o Anime
-          </a>
+          <div class="informations">
+            <span
+              class="truncate"
+              id="animeRecomendationText"
+              onclick="classList.toggle('truncate')"
+              ><a href="">Ler mais...</a>
+            </span>
+            <h2 id="animeName"></h2>
+            <p
+              class="truncate"
+              id="animeSynopsis"
+              onclick="classList.toggle('truncate')"
+            ></p>
+            <a href="" target="_blank" rel="noopener noreferrer" id="animeLink">
+              Ir para o Anime
+            </a>
+          </div>
         </div>
       </main>
       <footer>
