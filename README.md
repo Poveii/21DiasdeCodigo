@@ -21,7 +21,7 @@ Desafios (15 de Agosto de 2022 - 04 de Setembro de 2022):
 - [x] **Dia 13: Desenvolva um menu responsivo.**
 - [x] **Dia 14: Crie um formulário de quizzes.**
 - [x] **Dia 15: Desenvolva um site que exiba uma vitrine de produtos de um e-commerce fictício (com nome dos produtos, preços e imagens).**
-- [ ] Dia 16: Desenvolva um site utilizando uma API pública.
+- [x] **Dia 16: Desenvolva um site utilizando uma API pública.**
 - [ ] Dia 17: Desenvolva um site que capture os eventos do teclado e exiba na tela o evento e a tecla pressionada.
 - [ ] Dia 18: Desenvolva um gerador de senhas aleatórias.
 - [ ] Dia 19: Desenvolva um site que gere imagens aleatórias utilizando a API do Unsplash.
