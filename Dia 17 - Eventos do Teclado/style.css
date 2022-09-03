@@ -1,0 +1,52 @@
+/* ====== RESET ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* ====== MAIN ====== */
+main {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 350px;
+
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.item {
+  width: 340px;
+  height: 64px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: #597bec;
+  border-radius: 8px;
+}
+
+.events {
+  display: grid;
+}
