@@ -27,6 +27,10 @@ main {
   text-align: center;
 }
 
+.card h1 {
+  margin-bottom: 12px;
+}
+
 .list {
   display: flex;
   flex-direction: column-reverse;
@@ -49,4 +53,9 @@ main {
 
 .events {
   display: grid;
+}
+
+.counter {
+  font-size: smaller;
+  vertical-align: super;
 }

@@ -2,21 +2,20 @@ const bodyElement = document.querySelector("body");
 const listElement = document.querySelector(".list");
 
 bodyElement.addEventListener("keydown", function (event) {
-  // const lastEventKeyElement = document.querySelector(".key");a
-  // const lastEventKeyElements = document.querySelectorAll(".key");
-  // const lastEventKey = lastEventKeyElements[lastEventKeyElements.length - 1];
+  const lastEventKeyList = document.querySelectorAll(".key");
+  const lastEventKey = lastEventKeyList[lastEventKeyList.length - 1];
 
-  // if (lastEventKeyElement !== null) {
-  //   if (lastEventKeyElement.textContent === event.key) {
-  //     const spanCounterElements = document.querySelectorAll(".counter");
-  //     const spanCounterElement =
-  //       spanCounterElements[spanCounterElements.length - 1];
+  if (listElement.childElementCount >= 1) {
+    if (lastEventKey.textContent == event.key) {
+      const spanCounterElements = document.querySelectorAll(".counter");
+      const spanCounterElement =
+        spanCounterElements[spanCounterElements.length - 1];
 
-  //     spanCounterElement.textContent++;
-  //   }
+      spanCounterElement.textContent++;
 
-  //   return;
-  // }
+      return;
+    }
+  }
 
   listElement.innerHTML += "<div class='item'>" + "</div>";
 
@@ -26,8 +25,8 @@ bodyElement.addEventListener("keydown", function (event) {
   itemListElement.innerHTML =
     "<p class='key'>" +
     event.key +
-    "<span class='counter'></span>" +
     "</p>" +
+    "<span class='counter'></span>" +
     "<span>" +
     event.code +
     "</span>" +
@@ -41,23 +40,16 @@ bodyElement.addEventListener("keydown", function (event) {
 
   keyboardEventsListElement.innerHTML = "<span>" + "keydown" + "</span>";
 
-  bodyElement.addEventListener("keypress", function () {
-    // const lastEventKeyElement = document.querySelector(".key");
-    // if (lastEventKeyElement !== null) {
-    //   if (lastEventKeyElement.textContent === event.key) return;
-    // }
+  bodyElement.addEventListener("keypress", () => {
+    if (keyboardEventsListElement.textContent.endsWith("keypress")) return;
+    if (keyboardEventsListElement.textContent.endsWith("keyup")) return;
 
     keyboardEventsListElement.innerHTML += "<span>" + "keypress" + "</span>";
   });
 
-  bodyElement.addEventListener("keyup", function () {
-    // const lastEventKeyElement = document.querySelector(".key");
-    // if (lastEventKeyElement !== null) {
-    //   if (lastEventKeyElement.textContent === event.key) return;
-    // }
+  bodyElement.addEventListener("keyup", () => {
+    if (keyboardEventsListElement.textContent.endsWith("keyup")) return;
 
     keyboardEventsListElement.innerHTML += "<span>" + "keyup" + "</span>";
   });
 });
-
-console.log();
