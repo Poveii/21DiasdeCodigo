@@ -1,0 +1,52 @@
+/* ====== RESET ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+body {
+  background-color: #f1a208;
+  color: #ffffff;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* ====== MAIN ====== */
+main {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card p {
+  margin-bottom: 16px;
+}
+
+.card input {
+  width: 250px;
+  height: 20px;
+
+  text-align: center;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.card button {
+  padding: 14px 36px;
+
+  font-family: "Source Sans Pro", sans-serif;
+  border-radius: 4px;
+  cursor: pointer;
+}
