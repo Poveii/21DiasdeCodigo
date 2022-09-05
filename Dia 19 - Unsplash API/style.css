@@ -1,0 +1,93 @@
+/* ====== RESET ====== */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ====== HEADER ====== */
+header {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+/* ====== MAIN ====== */
+main {
+  display: grid;
+  justify-content: center;
+  column-gap: 16px;
+  flex: 1;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.column img {
+  width: 340px;
+  height: max-content;
+}
+
+img:nth-last-child(1) {
+  display: none;
+}
+
+button {
+  padding: 16px 36px;
+  margin-top: 28px;
+  margin-bottom: 16px;
+
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* ====== MEDIA QUERIES ====== */
+@media (min-width: 425px) {
+  .column img {
+    width: 380px;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    grid-template-columns: repeat(2, min-content);
+  }
+
+  .column img {
+    width: 340px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    grid-template-columns: repeat(3, min-content);
+  }
+
+  .column img {
+    width: 320px;
+  }
+
+  img:nth-last-child(1) {
+    display: block;
+  }
+}
