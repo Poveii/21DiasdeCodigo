@@ -2,23 +2,19 @@ const generateButtonElement = document.querySelector("button");
 const textInputElement = document.querySelector("input");
 
 const characters =
-  "qwertyuiopasdfghjklçzxcvbnmQWERTYUIOPASDFGHJKLÇZXCVBNM1234567890!@#$&?._";
+  "qwertyuiopasdfghjklçzxcvbnmQWERTYUIOPASDFGHJKLÇZXCVBNM1234567890!@#$&.";
+const charactersLength = 8;
 
 generateButtonElement.addEventListener("click", function () {
-  console.log("yeah");
+  if (textInputElement.value != "") textInputElement.value = "";
 
-  if (textInputElement.value != "") {
-    console.log("é o campas?");
-
-    textInputElement.value = "";
-  }
-
-  for (let index = 0; index <= 8; index++) {
+  for (let index = 0; index <= charactersLength; index++) {
     const randomNumber = Math.floor(Math.random() * characters.length);
-    // console.log(randomNumber);
 
     textInputElement.value += characters[randomNumber];
   }
 
-  console.log(textInputElement.value);
+  const textInputValue = textInputElement.value;
+
+  navigator.clipboard.writeText(textInputValue);
 });
