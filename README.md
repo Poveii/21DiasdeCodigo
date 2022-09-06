@@ -25,7 +25,7 @@ Desafios (15 de Agosto de 2022 - 04 de Setembro de 2022):
 - [x] **Dia 17: Desenvolva um site que capture os eventos do teclado e exiba na tela o evento e a tecla pressionada.**
 - [x] **Dia 18: Desenvolva um gerador de senhas aleatórias.**
 - [x] **Dia 19: Desenvolva um site que gere imagens aleatórias utilizando a API do Unsplash.**
-- [ ] Dia 20: Desenvolva um site de emoji picker. Ao selecionar um emoji, é copiado para a área de transferência.
+- [x] **Dia 20: Desenvolva um site de emoji picker. Ao selecionar um emoji, é copiado para a área de transferência.**
 - [ ] Dia 21: Desenvolva uma página para ser o seu portfólio.
   - Conte sobre você.
   - Suas experiências.
