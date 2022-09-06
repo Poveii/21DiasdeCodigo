@@ -2,11 +2,16 @@
 * {
   margin: 0;
   padding: 0;
+  border: 0;
   box-sizing: border-box;
 }
 
 a {
   text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -15,13 +20,46 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* ====== WINDOW ====== */
+.window-text {
+  width: 320px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-inline: auto;
+  z-index: 1;
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 42px;
+
+  text-align: center;
+  background-color: #0a0a0a;
+  border-radius: 8px;
+
+  transition: opacity 0.4s ease-in-out;
+}
+
+.window-text.transparent {
+  display: none;
+  opacity: 0;
+}
+
 /* ====== HEADER ====== */
 header {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 
   margin-top: 24px;
+}
+
+header h1 {
+  margin-bottom: 6px;
 }
 
 /* ====== MAIN ====== */
@@ -64,6 +102,27 @@ main {
   width: 9.375rem;
 }
 
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container button {
+  padding: 16px 36px;
+
+  background-color: #0f0f0f;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+  background-color: #1f1f1f;
+}
+
 /* ====== FOOTER ====== */
 footer {
   display: flex;
@@ -77,4 +136,16 @@ footer {
 small a {
   text-decoration: underline;
   color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  main {
+    grid-template-columns: repeat(3, max-content);
+  }
+}
+
+@media (min-width: 1440px) {
+  main {
+    grid-template-columns: repeat(4, max-content);
+  }
 }
