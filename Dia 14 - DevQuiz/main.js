@@ -38,21 +38,20 @@ const answersList = {
   ],
 };
 
-let previousQuestions = [];
+const randomNumber = Math.floor(Math.random() * questionList.length);
 
-function setRandomQuestion() {
-  const randomNumber = Math.round(Math.random() * (questionList.length - 2));
+questionTitleElement.textContent = questionList[randomNumber];
 
-  if (questionTitleElement.textContent != "") {
-    previousQuestions.push(questionTitleElement.textContent);
-    console.log(previousQuestions);
-  }
+const previousQuestion = questionTitleElement.textContent;
 
-  const newQuestion = questionList.filter(
-    (question) => question !== previousQuestions.forEach((item) => item)
-  )[randomNumber];
+const newQuestion = questionList.filter(
+  (question) => question != previousQuestion
+);
 
-  questionTitleElement.textContent = newQuestion;
+let index = 0;
+function setAnotherQuestion() {
+  questionTitleElement.textContent = newQuestion[index];
+  index++;
 }
 
 function giveAnswersToQuestions() {
@@ -99,7 +98,7 @@ inputListElements.forEach((input) => {
 let numberCorrectQuestions = 0;
 
 submitButtonElement.addEventListener("click", function () {
-  setRandomQuestion();
+  setAnotherQuestion();
 
   const labelInputChecked = document.querySelector("input.checked + label");
   const answerText = labelInputChecked.textContent;
@@ -136,5 +135,4 @@ submitButtonElement.addEventListener("click", function () {
   giveAnswersToQuestions();
 });
 
-setRandomQuestion();
 giveAnswersToQuestions();
