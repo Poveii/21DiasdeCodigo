@@ -20,47 +20,72 @@
 
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
-    <header class="on-top">
+  <body class="no-overflow">
+    <header class="">
       <h1>Pablo Gabriel</h1>
     </header>
 
-    <main>
+    <main class="no-overflow">
       <section id="hello-page">
-        <img src="./images/my-photo.jpeg" alt="" />
-        <h2>Olá!</h2>
-        <span class="material-icons"> arrow_right_alt </span>
+        <div class="image">
+          <img src="./images/my-photo.jpeg" alt="" />
+        </div>
+        <div class="content">
+          <h2>Olá!</h2>
+          <span class="material-icons"> arrow_right_alt </span>
+        </div>
+      </section>
+
+      <section id="about-me">
+        <p>
+          O meu nome é <strong>Pablo Gabriel</strong>, sou um programador web.
+          Há mais ou menos seis meses eu comecei a estudar a fundo sobre
+          programação, até um ano atrás eu só mexia (mexia mesmo) com Python e
+          Selenium fazendo algumas automações pela web, mas aí eu comecei a
+          estudar HTML, CSS, Javascript, e aqui estou eu fazendo um site
+          completo com os meus conhecimentos que eu tenho agora e terminando
+          esses 21 dias de código.
+        </p>
       </section>
 
       <section id="projects-page">
         <div class="projects-list">
+          <button id="backward">
+            <span class="material-icons"> arrow_back </span>
+          </button>
           <div class="project">
-            <h3></h3>
+            <span>Desafio 0<span id="counter">1</span></span>
           </div>
-          <div class="project">
-            <h3></h3>
-          </div>
-          <div class="project">
-            <h3></h3>
-          </div>
-          <div class="project">
-            <h3></h3>
-          </div>
-          <div class="project">
-            <h3></h3>
-          </div>
-          <div class="project">
-            <h3></h3>
-          </div>
+          <button id="forward">
+            <span class="material-icons"> arrow_forward </span>
+          </button>
         </div>
         <aside>
-          <img src="" alt="" />
-          <button></button>
+          <img src="./images/challenge01.png" alt="" id="projectImage" />
+          <div class="project-content">
+            <h3 id="projectName">Criando o repositório</h3>
+            <p id="projectDescription">
+              O primeiro desafio dos #21diasdecodigo foi criar o repositório
+              para guardar todos os 20 desafios, o primeiro passo para começar a
+              jornada.
+            </p>
+            <button id="projectButton">Ver o repositório</button>
+          </div>
         </aside>
       </section>
 
       <section id="contact-page">
-        <button></button>
+        <div class="contact-link">
+          <h2>Que tal?</h2>
+          <button>Me contratar</button>
+          <footer>
+            <small>
+              Criado por <a href="https://github.com/poveii">Poveii</a>
+              para finalizar os #21diasdecodigo da Rocketseat, aprendi muito
+              obrigado!
+            </small>
+          </footer>
+        </div>
       </section>
     </main>
 

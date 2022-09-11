@@ -1,12 +1,17 @@
-/* ====== RESET ====== */
+/* ====== GLOBAL ====== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 :root {
   --header-height: 40px;
+  --project-list-height: 75px;
 
   --primary-color: #77685d;
   --secondary-color: #483d3f;
@@ -25,6 +30,21 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+button {
+  padding: 16px 36px;
+
+  background-color: var(--highlight-color);
+  border-color: var(--highlight-color);
+  font-family: "Nunito", sans-serif;
+  color: #ffffff;
+
+  border-radius: 6px;
+}
+
+.no-overflow {
+  overflow: hidden;
+}
+
 /* ====== HEADER ====== */
 header {
   width: 100vw;
@@ -33,6 +53,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 1;
 
   position: fixed;
   background-color: var(--secondary-color);
@@ -40,14 +61,15 @@ header {
 }
 
 header.on-top {
+  width: 100%;
   height: var(--header-height);
   position: static;
 }
 
 header h1 {
   font-size: 2.25rem;
-  cursor: pointer;
   transition: font 0.4s ease-in-out;
+  cursor: pointer;
 }
 
 header.on-top h1 {
@@ -70,44 +92,188 @@ main {
   justify-content: center;
 }
 
-#hello-page img {
+.image {
   width: 200px;
   height: 264px;
-  object-fit: cover;
   position: relative;
 }
 
-#hello-page img::before {
+.image::before {
   content: "";
   width: 100%;
   height: 100%;
 
-  background-color: var(--tertiary-color);
-  display: inline-block;
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 0;
+
+  background-color: var(--tertiary-color);
+  transform: rotateZ(12deg);
+  z-index: -1;
 }
 
-#hello-page h2 {
-  font: 400 1.875rem "Bowlby One SC", fantasy;
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
   margin-top: 72px;
 }
 
-#hello-page span {
+.content h2 {
+  font: 400 1.875rem "Bowlby One SC", fantasy;
+}
+
+.content span {
   font-size: 2rem;
   transform: rotate(90deg);
+}
+
+#about-me {
+  height: 50vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--secondary-color);
+}
+
+#about-me p {
+  width: 20rem;
 }
 
 #projects-page {
   height: 100vh;
 
-  background-color: var(--tertiary-color);
+  /* background-color: var(--tertiary-color); */
+}
+
+.projects-list {
+  width: 100%;
+  height: 75px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project {
+  width: 120px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+}
+
+.project span {
+  font-weight: 700;
+}
+
+#backward,
+#forward {
+  padding: 0;
+  width: 48px;
+  height: 48px;
+
+  display: grid;
+  align-content: center;
+  justify-content: center;
+
+  border-radius: 8px;
+}
+
+aside {
+  height: calc(100vh - var(--project-list-height));
+  background-color: var(--secondary-color);
+}
+
+aside img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  margin-inline: 12px;
+}
+
+.project-content h3 {
+  font-size: 1.375rem;
+  margin-bottom: 4px;
+}
+
+.project-content p {
+  margin-bottom: 24px;
+}
+
+.project-content button {
+  font-weight: 700;
+  align-self: center;
 }
 
 #contact-page {
   height: 100vh;
+
+  background-image: url(./images/my-photo-working.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.contact-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.contact-link h2 {
+  font-family: "Bowlby One SC", fantasy;
+}
+
+.contact-link button {
+  padding: 20px 44px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+/* ====== FOOTER ====== */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 12px;
+}
+
+footer small {
+  text-align: center;
+  font-weight: 300;
+}
+
+small a {
+  text-decoration: underline;
+  color: var(--text-color);
 }
 
 /* ====== MEDIA QUERIES ====== */
@@ -127,6 +293,35 @@ main {
   header.on-top h1 {
     font-size: 1.875rem;
   }
+
+  .image {
+    width: 380px;
+    height: 508px;
+  }
+
+  .content {
+    margin-top: 116px;
+  }
+
+  .content h2 {
+    font-size: 3.5rem;
+  }
+
+  .content span {
+    font-size: 3.375rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  #hello-page {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+
+  .content {
+    align-items: flex-start;
+    margin-top: 0;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -144,5 +339,19 @@ main {
 
   header.on-top h1 {
     font-size: 2.5rem;
+  }
+
+  .image {
+    width: 482px;
+    height: 641px;
+  }
+
+  .content h2 {
+    font-size: 4rem;
+  }
+
+  .content span {
+    font-size: 3.875rem;
+    margin-left: -16px;
   }
 }

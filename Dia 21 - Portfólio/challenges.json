@@ -1,0 +1,130 @@
+{
+  "data": [
+    {
+      "image": "./images/challenge01.png",
+      "title": "Criando o repositório",
+      "description": "O primeiro desafio dos #21diasdecodigo foi criar o repositório para guardar todos os 20 desafios, o primeiro passo para começar a jornada.",
+      "button": "Ver o repositório"
+    },
+    {
+      "image": "./images/challenge02.png",
+      "title": "Hello World",
+      "description": "O segundo desafio dos #21diasdecodigo foi criar um Hello World personalizado! Foi uns do desafios mais gostosos de fazer, utilizei de uma fonte muito legal que eu encontrei no Google Fonts chamada Silkscreen, aí fui pegar um endpoint da API do Unsplash que retorna uma imagem aleatória com as especificações que você colocar.",
+      "button": "Conhecer o projeto!"
+    },
+    {
+      "image": "./images/challenge03.png",
+      "title": "Botão Animado",
+      "description": "O terceiro desafio dos #21diasdecodigo foi desenvolver um Botão Animado. Fui além de fazer um simples botão animado, como aqueles que trocam o tema do claro para o escuro e vice-versa, fiz um interruptor que liga e desliga a luz do site. Fui bem complicado entender e fazer esse projeto, mas no fim, mesmo que eu tenha saído do tema, eu consegui fazer funcionar.",
+      "button": "Conhecer o projeto!"
+    },
+    {
+      "image": "./images/challenge04.png",
+      "title": "Calculadora",
+      "description": "O quarto desafio dos #21diasdecodigo foi desenvolver a temida (pelo menos por mim) Calculadora. Foi muito mas muito loucura fazer essa calculadora, tentei fazer aquelas calculadoras pequenas de bolso mas meu conhecimento em CSS não chega do da Natália (a menina é outro nível) então eu fiz algo bem simples mas totalmente funcional, e ela até liga e desliga viu.",
+      "button": "Conhecer o projeto!"
+    },
+    {
+      "image": "./images/challenge05.png",
+      "title": "Página 404",
+      "description": "O quinto desafio dos #21diasdecodigo foi desenvolver uma página que apresentasse o erro 404 - Not Found. Esse também foi outro projeto que eu achei muito legal fazer, eu já tinha feito uma página 404 antes mas essa que eu fiz ficou (pra mim pelo menos) muito legal e fofo! Conheça o Sally, alguém que como você está perdido e quer encontrar o seu destino.",
+      "button": "Conhecer o projeto!"
+    },
+    {
+      "image": "./images/challenge06.png",
+      "title": "Card de Vidro",
+      "description": "O sexto desafio dos #21diasdecodigo foi criar um card com o estilo glassmorphism, no caso com cara de vidro. Esse projeto ficou muito legal também, gostei de fazer ele e aprender sobre o estilo glassmorphism que eu só ouvia falar e nunca tinha feito.",
+      "button": "Conhecer o projeto!"
+    },
+    {
+      "image": "./images/challenge07.png",
+      "title": "Contador",
+      "description": "O sétimo desafio dos #21diasdecodigo foi desenvolver um contador, que poderia ser qualquer coisa que contasse o tempo, como um cronômetro ou um temporizador. Eu decidi fazer um cronômetro, e foi bem complicado no início, nessa primeira semana de desafios esse e o da calculadora foram os que pareciam mais difíceis mas não impossíveis.",
+      "button": "Conhecer o projeto!"
+    },
+    {
+      "image": "./images/challenge08.png",
+      "title": "Theme Toggle",
+      "description": "O oitavo desafio dos #21diasdecodigo foi desenvolver um toggle button ('botão que troca') o tema do site para claro e escuro. Foi relativamente fácil fazer esse aqui, por conta do desafio do botão animado esse aqui era só pra fazer mais do que um botão, tinha que mudar o tema. (fiz exatamente isso no do interruptor haha)",
+      "button": "Conhecer o projeto!"
+    },
+    {
+      "image": "./images/challenge09.png",
+      "title": "Loading",
+      "description": "O nono desafio dos #21diasdecodigo foi criar uma página de loading (carregamento). Foi um dos desafios mais simples que fiz, esse eu não tive ideias legais como foi no segundo desafio então foi só um texto com o nome loading que os três pontinhos no final ficavam indo e voltando e tá tudo certo.",
+      "button": "Conhecer o projeto!"
+    },
+    {
+      "image": "./images/challenge10.png",
+      "title": "ParticleJS",
+      "description": "O décimo desafio dos #21diasdecodigo foi utilizar a lib (biblioteca) ParticleJS. Essa eu comecei sem entender e terminei do mesmo jeito, porque eu não conhecia a fundo o termo das libs, só tinha ouvido falar e visto o ReactJS mas mesmo assim foi complicado aí eu acabei não utilizando da minha forma mas apenas usando um template da biblioteca.",
+      "button": "Conhecer o projeto!"
+    },
+    {
+      "image": "./images/challenge11.png",
+      "title": "Página de Login",
+      "description": "O décimo primeiro desafio dos #21diasdecodigo foi desenvolver uma página de login. Esse desafio pra mim foi tranquilo porque eu já tinha um objetivo de criar isso algum dia então eu já tinha uma visão do que fazer bem antes de criar de verdade, então ficou bem legal né?",
+      "button": "Conhecer o projeto!"
+    },
+    {
+      "image": "./images/challenge12.png",
+      "title": "Galeria de Imagens",
+      "description": "O décimo segundo desafio dos #21diasdecodigo foi criar uma galeria de imagens. Foi a partir desse desafio que eu fiquei atrasado dois dias por conta de um evento, mas tudo certo. Nesse projeto eu fiz algo muito legal que no desafio 19 eu ia aprimorar ainda mais. Desafios muito parecidos ou eu que sou muito louco com as ideias?",
+      "button": "Conhecer o projeto!"
+    },
+    {
+      "image": "./images/challenge13.png",
+      "title": "Menu Responsivo",
+      "description": "",
+      "button": "Conhecer o projeto!"
+    },
+    {
+      "image": "./images/challenge14.png",
+      "title": "DevQuiz",
+      "description": "",
+      "button": "Conhecer o projeto!"
+    },
+    {
+      "image": "./images/challenge15.png",
+      "title": "E-Commerce",
+      "description": "",
+      "button": "Conhecer o projeto!"
+    },
+    {
+      "image": "./images/challenge16.png",
+      "title": "Anime API",
+      "description": "",
+      "button": "Conhecer o projeto!"
+    },
+    {
+      "image": "./images/challenge17.png",
+      "title": "Eventos do Teclado",
+      "description": "",
+      "button": "Conhecer o projeto!"
+    },
+    {
+      "image": "./images/challenge18.png",
+      "title": "Gerador de Senhas",
+      "description": "",
+      "button": "Conhecer o projeto!"
+    },
+    {
+      "image": "./images/challenge19.png",
+      "title": "Unsplash API",
+      "description": "",
+      "button": "Conhecer o projeto!"
+    },
+    {
+      "image": "./images/challenge20.png",
+      "title": "Emoji Picker",
+      "description": "",
+      "button": "Conhecer o projeto!"
+    },
+    {
+      "image": "./images/challenge21.png",
+      "title": "Portfólio",
+      "description": "",
+      "button": "Conhecer o projeto!"
+    }
+  ]
+}
