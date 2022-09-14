@@ -18,6 +18,8 @@ function setAnimeInformations() {
           randomNumberToEntry
         ].images.webp.large_image_url;
 
+      animeImage.classList.add("blur");
+
       animeRecomendationText.textContent = api.data[randomNumberToData].content;
 
       animeName.textContent =
@@ -31,6 +33,17 @@ function setAnimeInformations() {
       fetch(anime_URL)
         .then((response) => response.json())
         .then((api) => {
+          console.log(api);
+
+          api.data.genres.forEach((genre) => {
+            if (genre.name == "Hentai") {
+              setAnimeInformations();
+              return;
+            }
+
+            animeImage.classList.remove("blur");
+          });
+
           animeSynopsis.textContent = api.data.synopsis;
         });
 

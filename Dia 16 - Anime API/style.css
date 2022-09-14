@@ -21,6 +21,10 @@ body {
   -webkit-box-orient: vertical;
 }
 
+.blur {
+  filter: blur(12px) opacity(0.6);
+}
+
 .container {
   max-width: 100vw;
 
@@ -56,6 +60,8 @@ main {
 .card img {
   width: 340px;
   margin-bottom: 12px;
+
+  transition: filter 0.8s ease-out;
 }
 
 .informations {
