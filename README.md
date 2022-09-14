@@ -4,7 +4,7 @@
   Um desafio da <a href="https://www.rocketseat.com.br/">Rocketseat</a> para nunca parar de aprender! <br> #neverstoplearning #buildyourfuture
 </p>
 
-Desafios (15 de Agosto de 2022 - 04 de Setembro de 2022):
+Desafios (15 de Agosto de 2022 - 04 de Setembro de 2022, mas pra mim terminou em 15 de Setembro de 2022):
 
 - [x] **Dia 1: Crie um repositório para listar os 21 projetos que serão desenvolvidos durante os 21 dias de código.**
 - [x] **Dia 2: Faça um "Hello World" customizado com fontes, cores e imagens.**
@@ -26,7 +26,7 @@ Desafios (15 de Agosto de 2022 - 04 de Setembro de 2022):
 - [x] **Dia 18: Desenvolva um gerador de senhas aleatórias.**
 - [x] **Dia 19: Desenvolva um site que gere imagens aleatórias utilizando a API do Unsplash.**
 - [x] **Dia 20: Desenvolva um site de emoji picker. Ao selecionar um emoji, é copiado para a área de transferência.**
-- [ ] Dia 21: Desenvolva uma página para ser o seu portfólio.
+- [x] **Dia 21: Desenvolva uma página para ser o seu portfólio.**
   - Conte sobre você.
   - Suas experiências.
   - Suas habilidades.
