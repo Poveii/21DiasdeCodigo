@@ -16,45 +16,43 @@ function setChallengesInformation(
   image,
   title,
   description,
-  textButton
+  textButton,
+  link
 ) {
-  counter.textContent = number + 1;
+  number++;
+  number < 10
+    ? (counter.textContent = "0" + number)
+    : (counter.textContent = number);
+
   projectImage.src = image;
   projectName.textContent = title;
   projectDescription.textContent = description;
   projectButton.textContent = textButton;
-  console.log(number);
+  projectLink.href = link;
 }
 
 let index = 0;
 fetch(url)
   .then((response) => response.json())
   .then((list) => {
-    console.log(list.data);
-
-    console.log(index);
-
     backward.addEventListener("click", function () {
-      console.log(counter.textContent);
-      if (counter.textContent <= 0) return;
+      if (counter.textContent <= 01) return;
 
       index--;
 
-      let challengeTitle = list.data[index].title;
-      console.log(challengeTitle);
-      let challengeImage = list.data[index].image;
-      console.log(challengeImage);
-      let challengeText = list.data[index].description;
-      console.log(challengeText);
-      let challengeTextButton = list.data[index].button;
-      console.log(challengeTextButton);
+      const challengeTitle = list.data[index].title;
+      const challengeImage = list.data[index].image;
+      const challengeText = list.data[index].description;
+      const challengeTextButton = list.data[index].button;
+      const challengeLink = list.data[index].link;
 
       setChallengesInformation(
         index,
         challengeImage,
         challengeTitle,
         challengeText,
-        challengeTextButton
+        challengeTextButton,
+        challengeLink
       );
     });
 
@@ -63,31 +61,19 @@ fetch(url)
 
       index++;
 
-      let challengeTitle = list.data[index].title;
-      console.log(challengeTitle);
-      let challengeImage = list.data[index].image;
-      console.log(challengeImage);
-      let challengeText = list.data[index].description;
-      console.log(challengeText);
-      let challengeTextButton = list.data[index].button;
-      console.log(challengeTextButton);
+      const challengeTitle = list.data[index].title;
+      const challengeImage = list.data[index].image;
+      const challengeText = list.data[index].description;
+      const challengeTextButton = list.data[index].button;
+      const challengeLink = list.data[index].link;
 
       setChallengesInformation(
         index,
         challengeImage,
         challengeTitle,
         challengeText,
-        challengeTextButton
-      );
-
-      console.log(
-        index,
-        challengeImage,
-        challengeTitle,
-        challengeText,
-        challengeTextButton
+        challengeTextButton,
+        challengeLink
       );
     });
   });
-
-console.log();

@@ -2,129 +2,171 @@
   "data": [
     {
       "image": "./images/challenge01.png",
+      "alt": "",
       "title": "Criando o repositório",
       "description": "O primeiro desafio dos #21diasdecodigo foi criar o repositório para guardar todos os 20 desafios, o primeiro passo para começar a jornada.",
-      "button": "Ver o repositório"
+      "button": "Ver o repositório",
+      "link": "https://github.com/Poveii/21DiasdeCodigo"
     },
     {
       "image": "./images/challenge02.png",
+      "alt": "",
       "title": "Hello World",
       "description": "O segundo desafio dos #21diasdecodigo foi criar um Hello World personalizado! Foi uns do desafios mais gostosos de fazer, utilizei de uma fonte muito legal que eu encontrei no Google Fonts chamada Silkscreen, aí fui pegar um endpoint da API do Unsplash que retorna uma imagem aleatória com as especificações que você colocar.",
-      "button": "Conhecer o projeto!"
+      "button": "Conhecer o projeto!",
+      "link": "https://poveii-daytwo-helloworld.netlify.app/"
     },
     {
       "image": "./images/challenge03.png",
+      "alt": "",
       "title": "Botão Animado",
       "description": "O terceiro desafio dos #21diasdecodigo foi desenvolver um Botão Animado. Fui além de fazer um simples botão animado, como aqueles que trocam o tema do claro para o escuro e vice-versa, fiz um interruptor que liga e desliga a luz do site. Fui bem complicado entender e fazer esse projeto, mas no fim, mesmo que eu tenha saído do tema, eu consegui fazer funcionar.",
-      "button": "Conhecer o projeto!"
+      "button": "Conhecer o projeto!",
+      "link": "https://poveii-daythree-interruptor.netlify.app/"
     },
     {
       "image": "./images/challenge04.png",
+      "alt": "",
       "title": "Calculadora",
       "description": "O quarto desafio dos #21diasdecodigo foi desenvolver a temida (pelo menos por mim) Calculadora. Foi muito mas muito loucura fazer essa calculadora, tentei fazer aquelas calculadoras pequenas de bolso mas meu conhecimento em CSS não chega do da Natália (a menina é outro nível) então eu fiz algo bem simples mas totalmente funcional, e ela até liga e desliga viu.",
-      "button": "Conhecer o projeto!"
+      "button": "Conhecer o projeto!",
+      "link": "https://poveii-dayfour-calculator.netlify.app/"
     },
     {
       "image": "./images/challenge05.png",
+      "alt": "",
       "title": "Página 404",
       "description": "O quinto desafio dos #21diasdecodigo foi desenvolver uma página que apresentasse o erro 404 - Not Found. Esse também foi outro projeto que eu achei muito legal fazer, eu já tinha feito uma página 404 antes mas essa que eu fiz ficou (pra mim pelo menos) muito legal e fofo! Conheça o Sally, alguém que como você está perdido e quer encontrar o seu destino.",
-      "button": "Conhecer o projeto!"
+      "button": "Conhecer o projeto!",
+      "link": "https://poveii-dayfive-sally.netlify.app/"
     },
     {
       "image": "./images/challenge06.png",
+      "alt": "",
       "title": "Card de Vidro",
       "description": "O sexto desafio dos #21diasdecodigo foi criar um card com o estilo glassmorphism, no caso com cara de vidro. Esse projeto ficou muito legal também, gostei de fazer ele e aprender sobre o estilo glassmorphism que eu só ouvia falar e nunca tinha feito.",
-      "button": "Conhecer o projeto!"
+      "button": "Conhecer o projeto!",
+      "link": "https://poveii-daysix-glassmorphism.netlify.app/"
     },
     {
       "image": "./images/challenge07.png",
+      "alt": "",
       "title": "Contador",
       "description": "O sétimo desafio dos #21diasdecodigo foi desenvolver um contador, que poderia ser qualquer coisa que contasse o tempo, como um cronômetro ou um temporizador. Eu decidi fazer um cronômetro, e foi bem complicado no início, nessa primeira semana de desafios esse e o da calculadora foram os que pareciam mais difíceis mas não impossíveis.",
-      "button": "Conhecer o projeto!"
+      "button": "Conhecer o projeto!",
+      "link": "https://poveii-dayseven-counter.netlify.app/"
     },
     {
       "image": "./images/challenge08.png",
+      "alt": "",
       "title": "Theme Toggle",
       "description": "O oitavo desafio dos #21diasdecodigo foi desenvolver um toggle button ('botão que troca') o tema do site para claro e escuro. Foi relativamente fácil fazer esse aqui, por conta do desafio do botão animado esse aqui era só pra fazer mais do que um botão, tinha que mudar o tema. (fiz exatamente isso no do interruptor haha)",
-      "button": "Conhecer o projeto!"
+      "button": "Conhecer o projeto!",
+      "link": "https://poveii-dayeight-toggle.netlify.app/"
     },
     {
       "image": "./images/challenge09.png",
+      "alt": "",
       "title": "Loading",
       "description": "O nono desafio dos #21diasdecodigo foi criar uma página de loading (carregamento). Foi um dos desafios mais simples que fiz, esse eu não tive ideias legais como foi no segundo desafio então foi só um texto com o nome loading que os três pontinhos no final ficavam indo e voltando e tá tudo certo.",
-      "button": "Conhecer o projeto!"
+      "button": "Conhecer o projeto!",
+      "link": "https://poveii-daynine-loading.netlify.app/"
     },
     {
       "image": "./images/challenge10.png",
+      "alt": "",
       "title": "ParticleJS",
       "description": "O décimo desafio dos #21diasdecodigo foi utilizar a lib (biblioteca) ParticleJS. Essa eu comecei sem entender e terminei do mesmo jeito, porque eu não conhecia a fundo o termo das libs, só tinha ouvido falar e visto o ReactJS mas mesmo assim foi complicado aí eu acabei não utilizando da minha forma mas apenas usando um template da biblioteca.",
-      "button": "Conhecer o projeto!"
+      "button": "Conhecer o projeto!",
+      "link": "https://poveii-dayten-particlejs.netlify.app/"
     },
     {
       "image": "./images/challenge11.png",
+      "alt": "",
       "title": "Página de Login",
       "description": "O décimo primeiro desafio dos #21diasdecodigo foi desenvolver uma página de login. Esse desafio pra mim foi tranquilo porque eu já tinha um objetivo de criar isso algum dia então eu já tinha uma visão do que fazer bem antes de criar de verdade, então ficou bem legal né?",
-      "button": "Conhecer o projeto!"
+      "button": "Conhecer o projeto!",
+      "link": "https://poveii-dayeleven-login.netlify.app/"
     },
     {
       "image": "./images/challenge12.png",
+      "alt": "",
       "title": "Galeria de Imagens",
       "description": "O décimo segundo desafio dos #21diasdecodigo foi criar uma galeria de imagens. Foi a partir desse desafio que eu fiquei atrasado dois dias por conta de um evento, mas tudo certo. Nesse projeto eu fiz algo muito legal que no desafio 19 eu ia aprimorar ainda mais. Desafios muito parecidos ou eu que sou muito louco com as ideias?",
-      "button": "Conhecer o projeto!"
+      "button": "Conhecer o projeto!",
+      "link": "https://poveii-daytwelve-gallery.netlify.app/"
     },
     {
       "image": "./images/challenge13.png",
+      "alt": "",
       "title": "Menu Responsivo",
-      "description": "",
-      "button": "Conhecer o projeto!"
+      "description": "O décimo terceiro desafio dos #21diasdecodigo foi desenvolver um menu responsivo. Mais um bem simples, eu consegui reter bem o conteúdo da NLW06 que eu assisti esse ano (2022), ficou muito legal e bem responsivo.",
+      "button": "Conhecer o projeto!",
+      "link": "https://poveii-daythirteen-menu.netlify.app/"
     },
     {
       "image": "./images/challenge14.png",
+      "alt": "",
       "title": "DevQuiz",
-      "description": "",
-      "button": "Conhecer o projeto!"
+      "description": "O décimo quarto desafio dos #21diasdecodigo foi criar um quiz. Fiz quatro perguntas, no começo foi bem simples mas minha cabeça cheia de ideias de sair da caixinha, entrei numa encruzilhada (bug) que só fui resolver agora junto com esse último desafio. As perguntas se repetiam e eu queria que a ordem fosse aleatória sempre que você entrasse no site, agora foi consertado, quer dar uma olhada?",
+      "button": "Conhecer o projeto!",
+      "link": "https://poveii-dayfourteen-quiz.netlify.app/"
     },
     {
       "image": "./images/challenge15.png",
+      "alt": "",
       "title": "E-Commerce",
-      "description": "",
-      "button": "Conhecer o projeto!"
+      "description": "O décimo quinto desafio dos #21diasdecodigo foi desenvolver uma página de um e-commerce fictício. Aqui eu já peguei uma referência minha, ano passado (2021) eu tentei criar um e-commerce digital sem estoque, mas na época eu não estava preparado aí não deu certo. Porém aqui eu consegui fazer uma página bem simples da marca que eu mesmo criei. O que acharam?",
+      "button": "Conhecer o projeto!",
+      "link": "https://poveii-dayfifteen-ecommerce.netlify.app/"
     },
     {
       "image": "./images/challenge16.png",
+      "alt": "",
       "title": "Anime API",
-      "description": "",
-      "button": "Conhecer o projeto!"
+      "description": "O décimo sexto desafio dos #21diasdecodigo foi desenvolver um site com uma API pública. A API que eu usei foi a Jikan API, uma API não-oficial do MyAnimeList, que eu achei mais simples que a própria do MyAnimeList. Fiz bem simples também, vocês já devem saber do motivo, mas enfim, recentemente descobri que minha aplicação estava recomendando animes NSFW então na hora que eu vi isso corri para censurar e remover qualquer existência disso dela, por isso o blur quando se recarrega a página.",
+      "button": "Conhecer o projeto!",
+      "link": "https://poveii-daysixteen-api.netlify.app/"
     },
     {
       "image": "./images/challenge17.png",
+      "alt": "",
       "title": "Eventos do Teclado",
-      "description": "",
-      "button": "Conhecer o projeto!"
+      "description": "O décimo sétimo desafio dos #21diasdecodigo foi criar um site que capture os eventos do teclado, algo como quando a tecla for pressionada, segurada e soltada. Mais outro bem simples, então o meu maior aprendizado foi ter aprendido sobre esses eventos que eu não sabia que exista. Massa demais.",
+      "button": "Conhecer o projeto!",
+      "link": "https://poveii-dayseventeen-keyboard.netlify.app/"
     },
     {
       "image": "./images/challenge18.png",
+      "alt": "",
       "title": "Gerador de Senhas",
-      "description": "",
-      "button": "Conhecer o projeto!"
+      "description": "O décimo oitavo desafio dos #21diasdecodigo foi desenvolver um gerador de senhas aleatórias. Esse pra mim foi um dos mais rápidos que eu fiz, terminei ele em umas 2 a 3 horas, foi fácil e legal ao mesmo tempo, pesquisei e pensei sobre a segurança das senhas e aprendi muito. Tá precisando de uma senha forte aí?",
+      "button": "Conhecer o projeto!",
+      "link": "https://poveii-dayeighteen-passwords.netlify.app/"
     },
     {
       "image": "./images/challenge19.png",
+      "alt": "",
       "title": "Unsplash API",
-      "description": "",
-      "button": "Conhecer o projeto!"
+      "description": "O décimo nono desafio dos #21diasdecodigo foi desenvolver um site com a API do Unsplash. Apesar de eu ter usado só os endpoints e não ter 'conectado' de verdade a API ao projeto, está valendo. Aprimorei minhas ideias que eu não consegui fazer no desafio 12, o da Galeria de Imagens, agora além de ter fotos em todas as orientações (paisagem e retrato, 16:9 e 9:16) também temos como pedir mais fotos lindas como essas!",
+      "button": "Conhecer o projeto!",
+      "link": "https://poveii-daynineteen-unsplash.netlify.app/"
     },
     {
       "image": "./images/challenge20.png",
+      "alt": "",
       "title": "Emoji Picker",
-      "description": "",
-      "button": "Conhecer o projeto!"
+      "description": "O vigésimo, vulgo penúltimo desafio dos #21diasdecodigo foi criar um site que servisse para você pegar qualquer emoji que quiser, um emoji picker. Esse eu gostei de fazer e espero melhorar ele num futuro próximo (assim... se precisar, nunca se sabe 🤷🏻‍♂️).",
+      "button": "Conhecer o projeto!",
+      "link": "https://poveii-daytwenty-emoji.netlify.app/"
     },
     {
       "image": "./images/challenge21.png",
+      "alt": "",
       "title": "Portfólio",
-      "description": "",
-      "button": "Conhecer o projeto!"
+      "description": "O vigésimo primeiro.. digo, o último desafio dos #21diasdecodigo foi... pam pam pam pammm esse aqui que você está nesse momento, que coisa não? Bem, todos esses textos, fotos e tudo mais foram tiradas da.. como eu gosto de chamar carinhosamente, da minha API manual feita com suor e muita tecla apertada. Você pode ver ela bem aqui ↓",
+      "button": "Reconhecer o projeto?",
+      "link": "https://poveii-twentyonedayscoding.netlify.app/challenges.json"
     }
   ]
 }

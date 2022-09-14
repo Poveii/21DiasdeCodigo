@@ -39,6 +39,7 @@ button {
   color: #ffffff;
 
   border-radius: 6px;
+  cursor: pointer;
 }
 
 .no-overflow {
@@ -133,11 +134,11 @@ main {
 
 .content span {
   font-size: 2rem;
-  transform: rotate(90deg);
+  transform: rotateZ(90deg);
 }
 
 #about-me {
-  height: 50vh;
+  height: calc(60vh + var(--header-height));
 
   display: flex;
   flex-direction: column;
@@ -151,15 +152,49 @@ main {
   width: 20rem;
 }
 
+.technologies-cards {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  column-gap: 16px;
+
+  margin-top: 12px;
+}
+
+.technology-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  transition: transform 0.3s ease-in;
+}
+
+.technology-card:hover {
+  transform: scale(1.1);
+}
+
+.technology-card img {
+  width: 42px;
+  height: 42px;
+}
+
+img#javascript {
+  width: 36px;
+  height: 36px;
+}
+
+.technologies-cards span {
+  margin-top: 4px;
+}
+
 #projects-page {
   height: 100vh;
-
-  /* background-color: var(--tertiary-color); */
 }
 
 .projects-list {
   width: 100%;
-  height: 75px;
+  height: var(--project-list-height);
 
   display: flex;
   align-items: center;
@@ -197,6 +232,9 @@ main {
 aside {
   height: calc(100vh - var(--project-list-height));
   background-color: var(--secondary-color);
+
+  display: flex;
+  flex-direction: column;
 }
 
 aside img {
@@ -210,7 +248,7 @@ aside img {
   align-items: flex-start;
   justify-content: center;
 
-  margin-inline: 12px;
+  margin: 10px 12px 0;
 }
 
 .project-content h3 {
@@ -219,12 +257,15 @@ aside img {
 }
 
 .project-content p {
-  margin-bottom: 24px;
+  margin-bottom: 18px;
+}
+
+.project-content a {
+  align-self: center;
 }
 
 .project-content button {
   font-weight: 700;
-  align-self: center;
 }
 
 #contact-page {
@@ -277,9 +318,93 @@ small a {
 }
 
 /* ====== MEDIA QUERIES ====== */
+@media (max-width: 320px) {
+  button {
+    padding: 14px 32px;
+    font-size: 0.75rem;
+  }
+
+  #about-me p {
+    width: 18rem;
+    font-size: 0.875rem;
+  }
+
+  .technologies-cards img {
+    width: 34px;
+    height: 34px;
+  }
+
+  img#javascript {
+    width: 28px;
+    height: 28px;
+  }
+
+  .technologies-cards span {
+    font-size: 0.875rem;
+  }
+
+  #backward,
+  #forward {
+    width: 44px;
+    height: 44px;
+  }
+
+  #backward span,
+  #forward span {
+    font-size: 1.375rem;
+  }
+
+  .project {
+    width: 110px;
+    height: 30px;
+  }
+
+  .project span {
+    font-size: 0.875rem;
+  }
+
+  .project-content h3 {
+    font-size: 1.25rem;
+  }
+
+  .project-content p {
+    font-size: 0.875rem;
+    margin-bottom: 12px;
+  }
+
+  .contact-link h2 {
+    font-size: 1.25rem;
+  }
+
+  .contact-link button {
+    padding: 16px 40px;
+  }
+
+  footer small {
+    width: 19.375rem;
+  }
+}
+
+@media (min-width: 425px) {
+  #about-me p {
+    width: 22rem;
+  }
+
+  .technologies-cards {
+    column-gap: 24px;
+    margin-top: 16px;
+  }
+}
+
 @media (min-width: 768px) {
   :root {
     --header-height: 60px;
+    --project-list-height: 100px;
+  }
+
+  button {
+    padding: 24px 44px;
+    font-size: 1rem;
   }
 
   header.on-top {
@@ -310,6 +435,71 @@ small a {
   .content span {
     font-size: 3.375rem;
   }
+
+  #about-me {
+    height: calc(40vh + var(--header-height));
+  }
+
+  #about-me p {
+    width: 34rem;
+    font-size: 1.125rem;
+  }
+
+  .technologies-cards {
+    column-gap: 32px;
+    margin-top: 24px;
+  }
+
+  .projects-list {
+    height: 100px;
+  }
+
+  .project {
+    width: 140px;
+    height: 50px;
+  }
+
+  #backward,
+  #forward {
+    width: 56px;
+    height: 56px;
+  }
+
+  .project span {
+    font-size: 1.125rem;
+  }
+
+  .project-content {
+    margin: 12px 14px 0;
+  }
+
+  .project-content h3 {
+    margin-bottom: 8px;
+    font-size: 1.5rem;
+  }
+
+  .project-content p {
+    margin-bottom: 24px;
+    font-size: 1.125rem;
+  }
+
+  .contact-link h2 {
+    font-size: 1.75rem;
+    margin-bottom: 6px;
+  }
+
+  .contact-link button {
+    padding: 24px 52px;
+    margin-bottom: 64px;
+  }
+
+  footer {
+    margin-bottom: 16px;
+  }
+
+  footer small {
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -321,6 +511,26 @@ small a {
   .content {
     align-items: flex-start;
     margin-top: 0;
+  }
+
+  aside {
+    flex-direction: row;
+  }
+
+  aside img {
+    width: 64%;
+  }
+
+  .project-content {
+    margin: 0 16px;
+  }
+
+  .contact-link h2 {
+    margin-bottom: 8px;
+  }
+
+  footer small {
+    text-shadow: 2px 2px 6px black;
   }
 }
 
@@ -353,5 +563,33 @@ small a {
   .content span {
     font-size: 3.875rem;
     margin-left: -16px;
+  }
+
+  #about-me {
+    height: calc(30vh + var(--header-height));
+  }
+
+  #about-me p {
+    width: 44rem;
+    font-size: 1.25rem;
+  }
+
+  .technologies-cards img {
+    width: 48px;
+    height: 48px;
+  }
+
+  img#javascript {
+    width: 40px;
+    height: 40px;
+  }
+
+  .technologies-cards span {
+    margin-top: 6px;
+    font-size: 1.125rem;
+  }
+
+  footer small {
+    font-size: 1.125rem;
   }
 }
