@@ -4,7 +4,7 @@ O último desafio da primeira semana é criar um contador.
 
 Um cronômetro conta o tempo né? Então está valendo.
 
-<strong>Veja o site <a href="https://poveii-dayseven-counter.netlify.app/">aqui</a> ←<strong>
+<strong>Veja o site <a href="https://poveii-twentyonedayscoding.netlify.app/dia%2007%20-%20contador/">aqui</a> ←<strong>
 
 ## Tecnologias usadas
 

@@ -4,7 +4,7 @@ O desafio era fazer um Hello World customizado com cores, fontes e imagens.
 
 Esse projeto tem uma experiência única para cada vez que você entra no site, então...
 
-<strong>Veja o site <a href="https://poveii-helloworld.netlify.app/">aqui</a> ←<strong>
+<strong>Veja o site <a href="https://poveii-twentyonedayscoding.netlify.app/dia%2002%20-%20hello%20world/">aqui</a> ←<strong>
 
 ## Tecnologias usadas
 

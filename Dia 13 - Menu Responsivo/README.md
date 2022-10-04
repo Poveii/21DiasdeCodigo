@@ -4,7 +4,7 @@ Esse desafio era desenvolver um menu responsivo.
 
 Como estou atrasado, fiz um site com os meus conhecimentos na NLW06 (Next Level Week 6ª Edição). Todos os links funcionam 🙂.
 
-<strong>Veja o site <a href="https://poveii-daythirteen-menu.netlify.app/">aqui</a> ←<strong>
+<strong>Veja o site <a href="https://poveii-twentyonedayscoding.netlify.app/dia%2013%20-%20menu%20responsivo/">aqui</a> ←<strong>
 
 ## Tecnologias usadas
 

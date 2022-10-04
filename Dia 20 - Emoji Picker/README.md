@@ -4,7 +4,7 @@ Esse desafio era desenvolver um emoji picker que ao selecionar o emoji ele é co
 
 Não tem nada a ver ser atrasado, temos tempo (eu acho)! Penúltimo desafio concluído com sucesso, esse foi gostoso de fazer.
 
-<strong>Veja o site <a href="https://poveii-daytwenty-emoji.netlify.app/">aqui</a> ←<strong>
+<strong>Veja o site <a href="https://poveii-twentyonedayscoding.netlify.app/dia%2020%20-%20emoji%20picker/">aqui</a> ←<strong>
 
 ## Tecnologias usadas
 

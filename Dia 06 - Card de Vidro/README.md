@@ -4,7 +4,7 @@ O desafio era fazer um card com o efeito glassmorphism (efeito de vidro).
 
 Esse foi mais um dos desafios muito tranquilos de fazer, foi muito bom todo o processo.
 
-<strong>Veja o site <a href="https://poveii-daysix-glassmorphism.netlify.app/">aqui</a> ←<strong>
+<strong>Veja o site <a href="https://poveii-twentyonedayscoding.netlify.app/dia%2006%20-%20card%20de%20vidro/">aqui</a> ←<strong>
 
 ## Tecnologias usadas
 

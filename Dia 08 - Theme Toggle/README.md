@@ -4,7 +4,7 @@ Esse desafio era criar mais um botão só que agora para mudar do tema claro par
 
 Apesar de eu ter feito basicamente isso no desafio 03, tentei dar uma diferenciada nesse.
 
-<strong>Veja o site <a href="https://poveii-dayeight-toggle.netlify.app/">aqui</a> ←<strong>
+<strong>Veja o site <a href="https://poveii-twentyonedayscoding.netlify.app/dia%2008%20-%20theme%20toggle/">aqui</a> ←<strong>
 
 ## Tecnologias usadas
 

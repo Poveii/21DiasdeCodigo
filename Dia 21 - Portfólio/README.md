@@ -4,7 +4,7 @@ Esse desafio era desenvolver um site de portfólio contando minhas experiências
 
 Deixei de estar atrasado hahah. Enfim, foi uma jornada muito legal, de 21 dias eu só fui terminar mesmo em 31 dias por causa do atraso, mas foi uma das melhores experiências que eu já tive codando. Obrigado Rocketseat por proporcionar isso a todos nós que participamos.
 
-<strong>Veja o site final <a href="https://poveii-twentyonedayscoding.netlify.app">aqui</a> ←<strong>
+<strong>Veja o site final <a href="https://poveii-twentyonedayscoding.netlify.app/">aqui</a> ←<strong>
 
 ## Tecnologias usadas
 

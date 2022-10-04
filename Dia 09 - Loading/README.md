@@ -4,7 +4,7 @@ O desafio era criar uma animação de loading.
 
 Fiz algo tão simples que fiquei frustado, mas vida que segue.
 
-<strong>Veja o site <a href="https://poveii-daynine-loading.netlify.app/">aqui</a> ←<strong>
+<strong>Veja o site <a href="https://poveii-twentyonedayscoding.netlify.app/dia%2009%20-%20loading/">aqui</a> ←<strong>
 
 ## Tecnologias usadas
 

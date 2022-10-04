@@ -4,7 +4,7 @@ Esse desafio era desenvolver um gerador de senhas aleatórias.
 
 Atrasado. Tentei fazer o mais funcional possível, apesar de que queria implementar copiar a senha para a área de transferência.
 
-<strong>Veja o site <a href="https://poveii-dayeighteen-passwords.netlify.app/">aqui</a> ←<strong>
+<strong>Veja o site <a href="https://poveii-twentyonedayscoding.netlify.app/dia%2018%20-%20gerador%20de%20senhas/">aqui</a> ←<strong>
 
 ## Tecnologias usadas
 

@@ -4,7 +4,7 @@ O desafio foi desenvolver uma galeria de imagens.
 
 Eu me atrasei com os desafios, então estou correndo para fazer. Fiz algo bem simples.
 
-<strong>Veja o site <a href="https://poveii-daytwelve-gallery.netlify.app/">aqui</a> ←<strong>
+<strong>Veja o site <a href="https://poveii-twentyonedayscoding.netlify.app/dia%2012%20-%20galeria%20de%20imagens/">aqui</a> ←<strong>
 
 ## Tecnologias usadas
 

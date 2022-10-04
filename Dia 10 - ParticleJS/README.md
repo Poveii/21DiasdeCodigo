@@ -4,7 +4,7 @@ Esse desafio era só para utilizar a biblioteca (lib) ParticleJS.
 
 Bem, como é só utilizar eu coloquei o que a lib me proporcionava. Preciso aprender mais sobre.
 
-<strong>Veja o site <a href="https://poveii-dayten-particlejs.netlify.app/">aqui</a> ←<strong>
+<strong>Veja o site <a href="https://poveii-twentyonedayscoding.netlify.app/dia%2010%20-%20particlejs/">aqui</a> ←<strong>
 
 ## Tecnologias usadas
 

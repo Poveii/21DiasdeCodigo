@@ -4,7 +4,7 @@ Esse foi o desafio de criar uma página customizada do erro 404.
 
 Foi fácil fazer, eu gostei muito do processo e espero que você goste também.
 
-<strong>Veja o site <a href="https://poveii-dayfive-sally.netlify.app/">aqui</a> ←<strong>
+<strong>Veja o site <a href="https://poveii-twentyonedayscoding.netlify.app/dia%2005%20-%20p%C3%A1gina%20404/">aqui</a> ←<strong>
 
 ## Tecnologias usadas
 

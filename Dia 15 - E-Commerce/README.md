@@ -4,7 +4,7 @@ O desafio era desenvolver a página de um e-commerce fictício com imagens, nome
 
 Eu me atrasei demais nesses últimos desafios, mas eu lembrei que ano passado eu fiz um logotipo para um e-commerce com o nome de "Caixinha de Ofertas" e eu utilizei nesse projeto.
 
-<strong>Veja o site <a href="https://poveii-dayfifteen-ecommerce.netlify.app/">aqui</a> ←<strong>
+<strong>Veja o site <a href="https://poveii-twentyonedayscoding.netlify.app/dia%2015%20-%20e-commerce/">aqui</a> ←<strong>
 
 ## Tecnologias usadas
 

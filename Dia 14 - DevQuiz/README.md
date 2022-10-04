@@ -4,7 +4,7 @@ Esse desafio foi criar um formulário de quizzes.
 
 Como ainda estou atrasado, fiz um quiz bem simples acabei passando dois dias para resolver um bug mas depois eu resolvo (está repetindo as perguntas).
 
-<strong>Veja o site <a href="https://poveii-dayfourteen-quiz.netlify.app/">aqui</a> ←<strong>
+<strong>Veja o site <a href="https://poveii-twentyonedayscoding.netlify.app/dia%2014%20-%20devquiz/">aqui</a> ←<strong>
 
 ## Tecnologias usadas
 

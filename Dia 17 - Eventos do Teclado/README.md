@@ -4,7 +4,7 @@ Esse desafio era desenvolver um site que capturasse os eventos do teclado e as t
 
 Atrasado, mas tô chegando, falta só 4 desafios pra terminar tudo. Fiz um site mais funcional do que bonito, mas mesmo assim está agradável. O que acham? ↓
 
-<strong>Veja o site <a href="https://poveii-dayseventeen-keyboard.netlify.app/">aqui</a> ←<strong>
+<strong>Veja o site <a href="https://poveii-twentyonedayscoding.netlify.app/dia%2017%20-%20eventos%20do%20teclado/">aqui</a> ←<strong>
 
 ## Tecnologias usadas
 

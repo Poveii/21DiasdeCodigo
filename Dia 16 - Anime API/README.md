@@ -2,9 +2,9 @@
 
 O desafio era desenvolver um site com uma API pública.
 
-Ainda estou atrasado e isso é pessímo, mas eu escolhei a Jikan API, uma API não-oficial do MyAnimeList. Foi legal! 
+Ainda estou atrasado e isso é pessímo, mas eu escolhei a Jikan API, uma API não-oficial do MyAnimeList. Foi legal!
 
-<strong>Veja o site <a href="https://poveii-daysixteen-api.netlify.app/">aqui</a> ←<strong>
+<strong>Veja o site <a href="https://poveii-twentyonedayscoding.netlify.app/dia%2016%20-%20anime%20api/">aqui</a> ←<strong>
 
 ## Tecnologias usadas
 
