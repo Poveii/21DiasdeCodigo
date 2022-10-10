@@ -30,23 +30,13 @@ body {
   text-align: center;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  width: 100vw;
-  height: 100vh;
-}
-
 .vanish {
   opacity: 0;
   transition: opacity 0.6s ease-in;
 }
 
 .colors {
-  animation: coloring 3s normal;
+  animation: coloring 3s normal 1;
 }
 
 .unsplash {
@@ -58,8 +48,7 @@ body {
 .type:after {
   position: relative;
   content: "";
-  animation: typing 3s linear 1;
-  animation-fill-mode: forwards;
+  animation: typing 3s linear 1 forwards;
 }
 
 .blur {
@@ -72,7 +61,7 @@ body {
 }
 
 .show {
-  display: block;
+  display: initial;
 }
 
 /* ====== MAIN ====== */
@@ -99,8 +88,7 @@ h1 {
 }
 
 .content {
-  animation: floating 3s forwards infinite;
-  animation-delay: 1s;
+  animation: floating 3s forwards infinite 1s;
 }
 
 .content.vanish {
@@ -108,8 +96,6 @@ h1 {
 }
 
 svg {
-  color: var(--text-color);
-
   margin-bottom: 12px;
 }
 
@@ -123,6 +109,7 @@ h2 {
 /* ====== FOOTER ====== */
 footer {
   position: fixed;
+  inset-inline: 0;
   bottom: 0;
 
   margin-bottom: 24px;
@@ -214,9 +201,9 @@ footer small {
 
 @keyframes showing {
   from {
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px) brightness(0.5);
   }
   to {
-    backdrop-filter: blur(0px);
+    backdrop-filter: blur(0px) brightness(1);
   }
 }
