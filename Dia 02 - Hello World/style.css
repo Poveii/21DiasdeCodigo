@@ -82,6 +82,7 @@ h1 {
   margin-bottom: 24px;
   z-index: 1;
 
+  user-select: none;
   cursor: pointer;
   opacity: 1;
   transition: opacity 0.2s;
@@ -214,6 +215,10 @@ footer small {
 }
 
 @media (min-width: 768px) {
+  h1 {
+    width: max-content;
+  }
+
   h2 {
     width: 22.5rem;
   }
