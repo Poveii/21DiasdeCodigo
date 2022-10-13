@@ -1,3 +1,7 @@
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/79858234/195693264-565bc252-3bff-4252-9c83-49203d5f2136.gif" alt="Um GIF do projeto Botão Animado" />
+</div>
+
 # Dia 03 - Botão Animado
 
 Esse desafio era criar um botão animado.
