@@ -1,4 +1,4 @@
-/* ====== RESET ====== */
+/* ====== GLOBAL ====== */
 * {
   margin: 0;
   padding: 0;
@@ -37,6 +37,7 @@ input {
   margin-left: -9999px;
 }
 
+/* ====== INTERRUPTOR ====== */
 .interruptor-box {
   width: 300px;
   height: 429px;
@@ -49,13 +50,12 @@ input {
   background-color: #f1f1f1;
   border: 0.5px #0f0f0f solid;
   border-radius: 6px;
-  cursor: initial;
 }
 
 #interruptor + label {
-  display: block;
-
   cursor: pointer;
+  -webkit-user-select: none;
+  -ms-user-select: none;
   user-select: none;
   flex: 1;
 }
@@ -64,10 +64,7 @@ input {
 #interruptor + label::after {
   content: "";
   position: absolute;
-  top: 1px;
-  left: 1px;
-  right: 1px;
-  bottom: 1px;
+  inset: 1px;
   margin: auto;
 }
 
@@ -75,18 +72,16 @@ input {
   width: 138px;
   height: 69px;
 
-  background-color: #0a0a0a;
+  background-color: rgba(10, 10, 10, 0.7);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
   border-radius: 6px;
 
   transition: background-color 0.4s;
-  filter: opacity(0.7);
 }
 
 #interruptor + label::after {
   width: 132px;
   height: 66px;
-  margin: auto;
   left: 1.25px;
 
   background-color: #ffffff;

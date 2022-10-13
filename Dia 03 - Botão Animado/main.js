@@ -1,13 +1,14 @@
 const interruptorInputElement = document.querySelector("input");
 const interruptorLabelElement = document.querySelector("label");
-const bodyElement = document.querySelector("body");
 
 interruptorLabelElement.addEventListener("click", function () {
-  if (interruptorInputElement.defaultChecked) {
-    bodyElement.classList.add("dark");
+  if (interruptorInputElement.defaultChecked == true) {
+    interruptorInputElement.checked = true;
     interruptorInputElement.defaultChecked = false;
   } else {
-    bodyElement.classList.remove("dark");
+    interruptorInputElement.checked = false;
     interruptorInputElement.defaultChecked = true;
   }
+
+  document.body.classList.toggle("dark");
 });
