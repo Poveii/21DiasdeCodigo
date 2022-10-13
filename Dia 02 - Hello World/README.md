@@ -1,3 +1,7 @@
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/79858234/195625782-2d70fe38-951d-4240-b769-61aaf3d20f99.gif" alt="Um GIF do projeto Hello World"/>
+</div>
+
 # Dia 02 - Hello World
 
 O desafio era fazer um Hello World customizado com cores, fontes e imagens.
