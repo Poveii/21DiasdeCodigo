@@ -73,11 +73,11 @@ main {
 
   width: 100vw;
   height: 100vh;
-  flex: 1;
 }
 
 h1 {
   font-size: 4rem;
+  width: 20rem;
   text-shadow: 2px 2px var(--shadow-text-color);
   margin-bottom: 24px;
   z-index: 1;
@@ -101,7 +101,7 @@ svg {
 
 h2 {
   font-size: 1.125rem;
-  width: 22.5rem;
+  width: 20rem;
 
   opacity: 1;
 }
@@ -110,9 +110,7 @@ h2 {
 footer {
   position: fixed;
   inset-inline: 0;
-  bottom: 0;
-
-  margin-bottom: 24px;
+  bottom: 24px;
 }
 
 footer small {
@@ -204,6 +202,25 @@ footer small {
     backdrop-filter: blur(5px) brightness(0.5);
   }
   to {
-    backdrop-filter: blur(0px) brightness(1);
+    backdrop-filter: blur(0px) brightness(0.8);
+  }
+}
+
+/* ====== MEDIA QUERIES ====== */
+@media (max-width: 320px) {
+  h1 {
+    font-size: 3.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  h2 {
+    width: 22.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 4.5rem;
   }
 }
